@@ -1,4 +1,4 @@
-let dateObj = new Date();
+/*let dateObj = new Date();
 let day = dateObj.getUTCDate();
 let month = dateObj.getUTCMonth() + 1;
 let year = dateObj.getUTCFullYear();
@@ -15,7 +15,7 @@ var expirationDate = expirationDateInt;
 
 let enteredCode = 1231;
 let correctCode = 1234;
-
+*/
 function checkCoupon(enteredCode, correctCode, currentDate, expirationDate) {
     if (enteredCode === correctCode) {
         if (currentDate < expirationDate) {
